@@ -4,9 +4,10 @@ const months = ["January","February","March","April","May","June","July","August
 const values = new Array(months.length);
 for (var i = 0; i < values.length; i++)
     {
+        
         values[i] = Math.random() * 100
     };
-    
+
 var chart = new Chart(ctx,
     {
     type: 'line',
