@@ -14,8 +14,7 @@ h1 {
 
 .flex-container {
     display: flex;
-    justify-content:space-between;
-    margin: 2px;
+    justify-content:space-evenly;
 }
 
 .flex-container.fill-page {
@@ -24,7 +23,7 @@ h1 {
 }
 
 .outlined {
-    outline: 2px solid white;
+    border: 2px solid white;
 }
 
 .vertical {
@@ -40,7 +39,7 @@ h1 {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    padding: 0;
+    padding: 10;
 }
 
 .controls h3 {
@@ -53,13 +52,24 @@ h1 {
 .tools {
     text-align: center;
     width: 30%;
-    outline: 2px solid white;
     padding: 0px;
 }
 
 .interface {
     text-align: center;
     width: 70%;
-    outline: 2px solid white;
     padding: 10px;
+}
+
+.top-border {
+    border-top: 1px solid white;
+}
+.bottom-border {
+    border-bottom: 1px solid white;
+}
+.left-border {
+    border-left: 1px solid white;
+}
+.right-border {
+    border-right: 1px solid white;
 }
